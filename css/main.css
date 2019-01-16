@@ -1,0 +1,26 @@
+.main-picture {
+    background-image: url("/cs-313/img/Feilong.jpg");
+    height: 400px;
+    background-size: cover;
+    margin: 0;
+}
+
+.main-picture {
+    color: #cedeee;
+    text-shadow:1px 1px 3px black;
+}
+
+.nav-link {
+    border-bottom: 1px solid #dee2e6 !important;
+    background: #cde !important;
+}
+
+.nav-tabs,
+.nav-link.active {
+    border-bottom: none !important;
+    background: #fff !important;
+}
+
+main {
+    margin-top: 50px;
+}
