@@ -12,7 +12,7 @@
 
 <!--Add main-->
 <main>
-    <h2 style="text-align: center;">Insert Content Here</h2>
+    <h2>Insert Content Here</h2>
 </main>
 
 <!--Add footer and extra scripting-->
