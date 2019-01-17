@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Add head-->
-<?php include $_SERVER['DOCUMENT_ROOT'] . 'common/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . 'dfsfdhdfscommon/head.php'; ?>
 
 <body>
 <!--Add header-->
