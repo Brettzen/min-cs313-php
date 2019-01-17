@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Add head-->
-<?php include dirname(__FILE__) . '/common/head.php'; ?>
+<?php include dirname(__FILE__) . '../common/head.php'; ?>
 
 <body>
 <!--Add header-->
-<?php include dirname(__FILE__) . '/common/header.php'; ?>
+<?php include dirname(__FILE__) . '../common/header.php'; ?>
 
 <!--Add navigation-->
-<?php include dirname(__FILE__) . '/common/nav.php'; ?>
+<?php include dirname(__FILE__) . '../common/nav.php'; ?>
 
 <!--Add main-->
 <main>
@@ -16,7 +16,7 @@
 </main>
 
 <!--Add footer and extra scripting-->
-<?php include dirname(__FILE__) . '/common/footer.php'; ?>
+<?php include dirname(__FILE__) . '../common/footer.php'; ?>
 </body>
 
 </html>
