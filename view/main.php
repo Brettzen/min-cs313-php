@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Add head-->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/cs-313/common/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/common/head.php'; ?>
 
 <body>
 <!--Add header-->
@@ -16,7 +16,7 @@
 </main>
 
 <!--Add footer and extra scripting-->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/cs-313/common/footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/common/footer.php'; ?>
 </body>
 
 </html>
