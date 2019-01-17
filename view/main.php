@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <!--Add head-->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/cs-313/common/head.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . 'common/head.php'; ?>
 
 <body>
 <!--Add header-->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/cs-313/common/header.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . 'common/header.php'; ?>
 
 <!--Add navigation-->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/cs-313/common/nav.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . 'common/nav.php'; ?>
 
 <!--Add main-->
 <main>
