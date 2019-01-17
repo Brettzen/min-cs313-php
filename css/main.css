@@ -10,7 +10,7 @@
     text-shadow:1px 1px 3px black;
 }
 
-.nav-link {
+a.nav-link {
     border-bottom: 1px solid #dee2e6 !important;
     background: #cde !important;
 }
@@ -25,6 +25,22 @@ main {
     margin-top: 50px;
 }
 
-main h2 {
+main h2, 
+main p {
     text-align: center;
+}
+
+.item-heading {
+    cursor: pointer;
+}
+
+.item-heading:hover {
+    background: #cde;
+    width: 25%;
+}
+
+.item-menu {
+   display: none;
+   box-sizing: border-box;
+   margin-left: 20px
 }
