@@ -16,6 +16,14 @@ switch($action) {
         include 'view/assignments.php';
         break;
     
+    case 'team03':
+        include 'view/assignments/team/w03/week3.php';
+        break;
+    
+    case 'team03Submit':
+        include 'view/assignments/team/w03/formAction.php';
+        break;
+    
     case 'main':
     case 'about':
     default: 

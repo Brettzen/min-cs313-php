@@ -19,10 +19,10 @@
             <h3 class='nav-link item-heading'>Projects</h3>
             <div class="item-menu">
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action" id='one'>Elemental Taekwondo</a>
-                    <a href="#" class="list-group-item list-group-item-action" id='two'>Sunshine Roofing Company</a>
-                    <a href="#" class="list-group-item list-group-item-action" id='three'>Home-Grown</a>
-                    <a href="#" class="list-group-item list-group-item-action" id='four'>Band of Others</a>
+                    <a class="list-group-item list-group-item-action" id='one'>Elemental Taekwondo</a>
+                    <a class="list-group-item list-group-item-action" id='two'>Sunshine Roofing Company</a>
+                    <a class="list-group-item list-group-item-action" id='three'>Home-Grown</a>
+                    <a class="list-group-item list-group-item-action" id='four'>Band of Others</a>
                 </div>
             </div>
         </li>
@@ -30,9 +30,9 @@
           <h3 class='nav-link item-heading'>Tricking</h3>
             <div class="item-menu">
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action" id='five'>What is tricking?</a>
-                        <a href="#" class="list-group-item list-group-item-action" id='six'>2008 Sampler</a>
-                        <a href="#" class="list-group-item list-group-item-action" id='seven'>Yamada gets the Butterfly Twist</a>
+                        <a class="list-group-item list-group-item-action" id='five'>What is tricking?</a>
+                        <a class="list-group-item list-group-item-action" id='six'>2008 Sampler</a>
+                        <a class="list-group-item list-group-item-action" id='seven'>Yamada gets the Butterfly Twist</a>
                     </div>
             </div>
         </li>
@@ -40,9 +40,9 @@
           <h3 class='nav-link item-heading'>Gaming</h3>
             <div class="item-menu">
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action" id='eight'>Steam Profile</a>
-                        <a href="#" class="list-group-item list-group-item-action" id='nine'>Speedrunning Mega Man Anniversary Collection</a>
-                        <a href="#" class="list-group-item list-group-item-action" id='ten'>Final Fantasy IV Challenge: Auto-Battle Geryon</a>
+                        <a class="list-group-item list-group-item-action" id='eight'>Steam Profile</a>
+                        <a class="list-group-item list-group-item-action" id='nine'>Speedrunning Mega Man Anniversary Collection</a>
+                        <a class="list-group-item list-group-item-action" id='ten'>Final Fantasy IV Challenge: Auto-Battle Geryon</a>
                         <!--<a href="#" class="list-group-item list-group-item-action" id='eleven'>Zelda: A Link to the Past - Speedrun</a>-->
                     </div>
             </div>
@@ -52,7 +52,7 @@
     <div class='col-9'>
         <div class="intro">
             <h2>Welcome!</h2>
-            <p>Use the menu on the left to navigate.</p>
+            <p class="text-center">Use the menu on the left to navigate.</p>
         </div>
         <div class="item-desc one">
             <h4>Elemental Taekwondo</h4>
@@ -71,7 +71,7 @@
         
         <div class='item-desc three'>
             <h4>"Home-Grown" Web Application</h4>
-            <img src="img/home-grownSample.png" alt="Home-Grown">
+            <img src="img/home-grownSample.png" class='img-fluid' alt="Home-Grown">
             <p>"Home-Grown" is a home-schooling application for families to maintain their children's home-schooling lessons and activities in a centralized location. Using the website, users can upload and view lessons, schedules, videos, and other media. The application will interface with the info in the database that was sent from the website to pull the lessons to their handheld devices, thus creating a different user experience for every user. This is all done to make the home-schooling process more effective and easier to manage.</p>
             <p>This is a collaboration project I was working on with a close friend. We're utilizing a GitHub private repository to share code. The website is being created with HTML and CSS, with use of angular.js framework, javaScript and jQuery.</p>
         </div>
