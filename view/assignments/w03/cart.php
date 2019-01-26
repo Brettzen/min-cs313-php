@@ -48,7 +48,7 @@
                         .   "<td class='w-200 text-center mx-auto'>"
                         .       "<input class='form-control w-50 mx-auto text-center' type='text' placeholder='$itemAmount' readonly>"
                         .       "<p class='text-success h5'>$".$cart[$i]['cost'] * $itemAmount."</p>"
-                        .       "<button class='btn btn-danger btn-delete-cart-item w-50'>Delete</button>"    
+//                        .       "<button class='btn btn-danger btn-delete-cart-item w-50'>Delete</button>"    
                         .   "</td>"
                         ."</tr>";
                         $itemAmount = 1;
