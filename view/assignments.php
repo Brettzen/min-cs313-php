@@ -14,8 +14,8 @@
 <main>
     <h2>Assignments</h2>
     <div class="row">
-        <div class="col-sm-6">
-            <div class="card" style="width: 30rem;">
+        <div class="col-sm-4">
+            <div class="card no-border" style="width: 30rem;">
                 <div class="card-body">
                     <div class="card-front">
                     <h5 class="card-title">Fun with Forms</h5>
@@ -41,6 +41,41 @@
                         </ul>
                         <p class="text-center">
                             <a href="index.php?action=team03" class="btn btn-primary">Go to assignment</a>
+                            <a class="btn btn-primary flip-btn">View description</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="card no-border" style="width: 30rem;">
+                <div class="card-body">
+                    <div class="card-front">
+                    <h5 class="card-title">eStore</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Week 03 - Prove Assignment</h6>
+                        <p class="card-text">This assignment involved creating a shopping cart system. Although we didn't need to take credit card information, we still needed to use form data to get addresses. A lot of dynamic generation, ajax requests, and jQuery were used to make this run smoothly. I wanted to create an auto-generated item description page, but I ended up running out of time.</p>   
+                        <p class="text-center">
+                            <a href="index.php?action=browse03" class="btn btn-primary">Go to assignment</a>
+                            <a class="btn btn-primary flip-btn">View requirements</a>
+                        </p>
+                    </div>
+                    <div class="card-back">
+                        <h5 class="card-title">Core Requirements: <span class="badge badge-success">Complete!</span></h5>
+                        <ul>
+                            <li class="task-complete">01 - Create Browse page</li>
+                            <li class="task-complete">02 - Create Cart page</li>
+                            <li class="task-complete">03 - Create Checkout page</li>
+                            <li class="task-complete">04 - Create Confirmation page</li>
+                        </ul>
+                        <h5 class="card-title">Extra Stuff: </h5>
+                        <ul>
+                            <li class="task-complete">01 - Clean UI and Design</li>
+                            <li class="task-complete">02 - Add multiple items</li>
+                            <li class="">03 - Add Item Details page</li>
+                        </ul>
+                        <p class="text-center">
+                            <a href="index.php?action=browse03" class="btn btn-primary">Go to assignment</a>
                             <a class="btn btn-primary flip-btn">View description</a>
                         </p>
                     </div>
