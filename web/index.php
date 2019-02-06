@@ -118,6 +118,10 @@ switch($action) {
         include 'view/assignments/w03/browse.php';
         break;
     
+    case 'team04':
+        include 'view/assignments/team/w04/week3.php';
+        break;
+    
     case 'main':
     case 'about':
     default: 
