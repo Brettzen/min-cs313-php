@@ -4,12 +4,12 @@
     </head>
 <body>
     <h1>Scripture Resources</h1>
-    <?php
-        foreach ($db->query('SELECT * FROM scriptures') as $row)
-        {
-          echo '<p><b>' . $row['book'] . ' ' . $row['chapter'] . ':' . $row['verse'] . '</b> - "' . $row['content'] . '"</p>';
-        }
-    ?>
+    <form method="post" action="index.php">
+        <input type="search" name="search" id="search" placeholder="Enter scripture book name">
+        <button type="submit" class="btn btn-submit">Submit</button>
+        <input type="hidden" name="action" value="team4Search">
+    </form>
+    
 </body>    
 </html>
 

@@ -122,6 +122,15 @@ switch($action) {
         include 'view/assignments/team/w04/week4.php';
         break;
     
+    case 'team4Search':
+        $book = filter_input(INPUT_POST, 'search', FILTER_SANITIZE_STRING);
+        foreach ($db->query('SELECT * FROM scriptures WHERE book = ' . $book) as $row)
+        {
+          echo '<p><b>' . $row['book'] . ' ' . $row['chapter'] . ':' . $row['verse'] . '</b> - "' . $row['content'] . '"</p>';
+        }
+        include 'view/assignments/team/w04/week4search.php';
+        break;
+    
     case 'main':
     case 'about':
     default: 
