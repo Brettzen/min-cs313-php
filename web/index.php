@@ -119,7 +119,7 @@ switch($action) {
         break;
     
     case 'team04':
-        include 'view/assignments/team/w04/week3.php';
+        include 'view/assignments/team/w04/week4.php';
         break;
     
     case 'main':
