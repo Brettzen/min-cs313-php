@@ -7,7 +7,7 @@
     <?php
         foreach ($db->query('SELECT * FROM scriptures') as $row)
         {
-          echo '<p><b>' . $row['book'] . ' ' . $row['chapter'] . ':' . $row['verse'] . '</b> - \"' . $row['content'] . '\"</p>';
+          echo '<p><b>' . $row['book'] . ' ' . $row['chapter'] . ':' . $row['verse'] . '</b> - "' . $row['content'] . '"</p>';
         }
     ?>
 </body>    
