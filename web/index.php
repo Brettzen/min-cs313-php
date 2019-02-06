@@ -127,6 +127,11 @@ switch($action) {
         include 'view/assignments/team/w04/week4search.php';
         break;
     
+    case 'week4Details':
+        $id = $_GET['id'];
+        include 'view/assignments/team/w04/week4search.php';
+        break;
+    
     case 'main':
     case 'about':
     default: 
