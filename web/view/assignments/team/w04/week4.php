@@ -10,6 +10,9 @@
         <!--<input type="hidden" name="action" value="team4Search">-->
     </form>
     
+    <button type="button" class="btn btn-info return-btn">
+        <a href='index.php?action=assignments' class="btn-link">Return to assignments?</a>
+    </button>
 </body>    
 </html>
 

@@ -1,0 +1,67 @@
+@media screen and (max-width: 888px){
+        .student-main {
+            display: block;
+            min-height: 0;
+            max-height: none;
+        }
+        
+        p.student-welcome {
+            padding: 0;
+        }
+        
+        .curriculum-menu {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        
+        .curriculum-menu div {
+            display: none;
+        }
+        
+        .curriculum-menu div:first-child {
+            display: block;
+            border: 0;
+            letter-spacing: 1px;
+            padding-bottom: 10px;
+        }
+        
+        .curriculum-menu p {
+            margin: 0;
+        }
+        
+        .curriculum-main {
+            width: 100%;
+        }
+        
+        .belt-select {
+            position: initial;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        .belt-select span {
+            font-size: 20px;
+        }
+        
+        .belt-select select {
+            width: 100%;
+            padding: 10px;
+            text-align-last: center;
+        }
+        
+        .curriculum-fitness {
+            width: 90%;
+        }
+        
+        .board-break {
+            width: 100%;
+            display: block;
+        }
+        
+        .board-break article {
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+}

@@ -47,12 +47,23 @@
                     </div>
             </div>
         </li>
+        <li class="nav-item">
+          <h3 class='nav-link item-heading'>Contact</h3>
+            <div class="item-menu">
+                    <div class="list-group">
+                        <a class="list-group-item list-group-item-action" id='eleven'>Contact Me!</a>
+                    </div>
+            </div>
+        </li>
     </ul>
     </div>
     <div class='col-9'>
         <div class="intro">
             <h2>Welcome!</h2>
-            <p class="text-center">Use the menu on the left to navigate.</p>
+            <div class="alert alert-primary text-center">Use the menu on the left to navigate.</div>
+            <p>My name is Brett Starks. I'm a Web Developer and Martial Arts School owner. I also am majoring in Software Engineering at BYU-I.</p>
+            <p>My professional experience is centered around PHP and Java development, with a mix of front-end and back-end technologies and frameworks. This portfolio was created using PHP on a Heroku server with the Bootstrap CSS framework!</p>
+            <p>My core values are growth, integrity, and dedication.</p>
         </div>
         <div class="item-desc one">
             <h4>Elemental Taekwondo</h4>
@@ -125,14 +136,31 @@
             <p>While completing all of the achievements for the "HD" version of Final Fantasy IV on Steam, I decided I wanted to try defeating one of the ultra-bosses, Geryon, using nothing but Auto-Battle. As Final Fantasy IV's auto-battle is customizable, it wasn't really that difficult, although still fun.</p>
         </div>
         
-<!--        <div class="item-desc eleven">
-            <h4>Zelda: A Link to the Past - Speedrun</h4>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/c0cPvSyU6-I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p>While completing all of the achievements for the "HD" version of Final Fantasy IV on Steam, I decided I wanted to try defeating one of the ultra-bosses, Geryon, using nothing but Auto-Battle. As Final Fantasy IV's auto-battle is customizable, it wasn't really that difficult, although still fun.</p>
-        </div>-->
-        
+        <div class="item-desc eleven">
+            <h4>Contact Me!</h4>
+            <form class="form contact-form container" method="post" onsubmit="return false;">
+                <div class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class='form-group'>
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone number">
+                </div>
+                <div class="form-group form-inline">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" id="message" name="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <div class='form-group'>
+                    <button type='submit' id="contactButton" class='btn btn-primary'>Contact</button>
+                </div>
+            </form>
+        </div>
     </div>
-</div>
     
 </main>
 

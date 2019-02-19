@@ -33,7 +33,7 @@
                             <li class="task-complete">02 - Create a PHP script to handle the form</li>
                             <li class="task-complete">03 - Add "Continents Visited" checkbox</li>
                         </ul>
-                        <h5 class="card-title">Stretch Requirements: <span class="badge badge-success">Complete!</span></h5>
+                        <h5 class="card-title">Stretch Challenges: <span class="badge badge-success">Complete!</span></h5>
                         <ul>
                             <li class="task-complete">01 - Use PHP to populate radio buttons</li>
                             <li class="task-complete">02 - Use PHP to convert Continents from ID to text</li>
@@ -76,6 +76,74 @@
                         </ul>
                         <p class="text-center">
                             <a href="index.php?action=browse03" class="btn btn-primary">Go to assignment</a>
+                            <a class="btn btn-primary flip-btn">View description</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="card no-border" style="width: 30rem;">
+                <div class="card-body">
+                    <div class="card-front">
+                    <h5 class="card-title">Scripture Search</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Week 05 - Team Assignment</h6>
+                        <p class="card-text">This assignment involved creating a new database table and populating it with scriptures. We then created a dynamically generated PHP page that would populate with the contents of the table rows. The most difficult part of this project was just making it work with my MVC environment.</p>   
+                        <p class="text-center">
+                            <a href="index.php?action=team04" class="btn btn-primary">Go to assignment</a>
+                            <a class="btn btn-primary flip-btn">View requirements</a>
+                        </p>
+                    </div>
+                    <div class="card-back">
+                        <h5 class="card-title">Core Requirements: <span class="badge badge-success">Complete!</span></h5>
+                        <ul>
+                            <li class="task-complete">01 - Create Scriptures table</li>
+                            <li class="task-complete">02 - Insert rows into Scriptures</li>
+                            <li class="task-complete">03 - Create dynamic pages from Scriptures data</li>
+                        </ul>
+                        <h5 class="card-title">Stretch Challenges: <span class="badge badge-success">Complete!</span></h5>
+                        <ul>
+                            <li class="task-complete">01 - Add search bar</li>
+                            <li class="task-complete">02 - Link scripture to separate page</li>
+                            <li class="task-complete">03 - Build Scripture Details page</li>
+                        </ul>
+                        <p class="text-center">
+                            <a href="index.php?action=team04" class="btn btn-primary">Go to assignment</a>
+                            <a class="btn btn-primary flip-btn">View description</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-sm-4">
+            <div class="card no-border" style="width: 30rem;">
+                <div class="card-body">
+                    <div class="card-front">
+                    <h5 class="card-title">Student Dashboard</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Week 05 - Prove Assignment</h6>
+                        <p class="card-text">This assignment involved creating a student dashboard that students can use to view curriculum. Students will log in (non-students can use the demo account) and will then be directed to their dashboard where they can view all the curriculum for their belt. Lower belts can also be viewed.</p>   
+                        <p class="text-center">
+                            <a href="index.php?action=w4Login" class="btn btn-primary">Go to assignment</a>
+                            <a class="btn btn-primary flip-btn">View requirements</a>
+                        </p>
+                    </div>
+                    <div class="card-back">
+                        <h5 class="card-title">Core Requirements: <span class="badge badge-success">Complete!</span></h5>
+                        <ul>
+                            <li class="task-complete">01 - Insert data into tables</li>
+                            <li class="task-complete">02 - Create dynamic PHP pages with data</li>
+                        </ul>
+                        <h5 class="card-title">Extra Stuff: <span class="badge badge-success">Complete!</span></h5>
+                        <ul>
+                            <li class="task-complete">01 - Make Student Login page</li>
+                            <li class="task-complete">02 - Add all curriculum</li>
+                            <li class="task-complete">03 - Dynamically generate entire dashboard</li>
+                            <li class="task-complete">04 - Make lower belts viewable</li>
+                        </ul>
+                        <p class="text-center">
+                            <a href="index.php?action=w4Login" class="btn btn-primary">Go to assignment</a>
                             <a class="btn btn-primary flip-btn">View description</a>
                         </p>
                     </div>

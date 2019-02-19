@@ -21,4 +21,29 @@ $().ready(function(){
             $card.children('.card-front').css('display', 'block'); 
         }
    });
+   
+   $('#contactButton').submit(function(evt){
+        $data = $('.contact-form').serialize();
+        console.log($data);
+        $.ajax({
+            url: 'index.php?action=Contact',
+            method: 'POST',
+            data: $data,
+            success: function(data) {
+                $alert = '<div class="contact-alert alert" role="alert">' + data + '</div>';
+                $('body').append($alert).delay(1000);
+                $('.contact-alert').addClass('fade').alert('close');
+            },
+            error: function(xhr, status, error) {
+               console.log("error: " + error);
+               console.log("xhr: " + JSON.stringify(xhr));
+               console.log("status: " + status);
+            }
+        });
+    });
+    
+    $('#createAccount').on('click', function() {
+        window.location.href = "/index.php?action=createAccount";
+    });
+    
 });

@@ -16,6 +16,13 @@ h4 {
     margin: 0;
 }
 
+.tkd-picture {
+    background-image: url("/img/2666.jpg");
+    height: 400px;
+    background-size: cover;
+    margin: 0;
+}
+
 .w03-picture {
     margin: 0;
 }
@@ -219,4 +226,293 @@ footer {
 
 .address-form {
     margin-right: 20px;
+}
+
+/*---------------------------------------------
+Student Dashboard
+---------------------------------------------*/
+
+.student-main {
+    width: 100%;
+    /*margin: -10px 0 -16px;*/
+    /*min-height:80%;*/
+    box-sizing: border-box;
+    min-height: 640px;
+    max-height: 640px;
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+}
+
+.curriculum-menu {
+    width: 25%;
+    /*height: 573px;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.curriculum-menu ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-indent: 20px;
+}
+
+.curriculum-menu div {
+    /*list-style-position: 0;*/
+    padding:25px 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Bebas Kai";
+    letter-spacing: 1px;
+}
+
+.curriculum-menu > div {
+    flex: 1 1 auto;
+}
+
+div.white-stripe {
+    background: rgba(255,255,255,1);
+}
+div.yellow-stripe {
+    background: rgba(255,255,0,1);
+}
+div.orange-stripe {
+    background: rgba(255,150,0,1);
+}
+div.green-stripe {
+    background: rgba(0,255,80,1);
+}
+div.blue-stripe {
+    background: rgba(0,120,255,1);
+    color: white;
+}
+div.brown-stripe {
+    background: rgba(150,100,30,1);
+    color: white;
+}
+div.red-stripe {
+    background: rgba(255,0,0,1);
+    color: white;
+}
+div.black-stripe {
+    background: rgba(40,40,40,1);
+    color: white;
+    border-bottom: none;
+}
+
+li .white-stripe {
+    background: rgba(255,255,255,1);
+}
+li .yellow-stripe {
+    background: rgba(255,255,0,1);
+}
+li .orange-stripe {
+    background: rgba(255,150,0,1);
+}
+li .green-stripe {
+    background: rgba(0,255,80,1);
+}
+li .blue-stripe {
+    background: rgba(0,120,255,1);
+    color: white;
+}
+li .brown-stripe {
+    background: rgba(150,100,30,1);
+    color: white;
+}
+li .red-stripe {
+    background: rgba(255,0,0,1);
+    color: white;
+}
+li .black-stripe {
+    background: rgba(40,40,40,1);
+    color: white;
+}
+
+.curriculum-main {
+    margin-top: -50px;
+    position: relative;
+    width: 75%;
+    /*height: 573px;*/
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    background: rgba(255,255,255,0.9);
+    overflow: auto;
+}
+
+.curriculum-main ul {
+    list-style-type: none;
+}
+
+.curriculum-main div {
+    display: none;
+}
+
+.student-welcome {
+    padding-top: 40px;
+}
+
+.media {
+    display: block !important;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.media article {
+    width: 100%;
+}
+
+.media vid {
+    display: block;
+    width:100%;
+    margin: auto;
+    padding: 20px 20px 0;
+    box-sizing: border-box;
+}
+
+.board-break {
+    display: flex;
+    width: 100%;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+.board-break article {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.board-break article p {
+    text-align: center;
+    margin: 0;
+}
+
+.board-break article p.kname {
+    font-size: 1.15em;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.board-break article p.ename {
+    text-align: center;
+    font-style: italic;
+}
+
+.board-break article p.desc {
+    text-align: justify;
+    margin-top: 5px;
+}
+
+.curriculum-main ul {
+    padding: 0;
+}
+
+.curriculum-fitness {
+    border-collapse: collapse;
+    margin: auto auto 25px;
+    width: 40%;
+}
+
+.curriculum-fitness th {
+    border: 2px solid black;
+} 
+
+.curriculum-fitness td {
+    border: 2px solid black;
+}
+
+.curriculum-fitness tr:nth-child(odd) {
+    background: rgba(0,180,120,.4);
+}
+
+.belt-select {
+    position:absolute;
+    top: 10px;
+    right: 0;
+}
+
+.btn-logout {
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.belt-select select {
+    padding: 5px 10px 5px 5px;
+    font-size: 16px;
+    width: 200px;
+}
+
+.belt-select span {
+    font-size: 16px;
+}
+
+.tech {
+    display: block !important;
+    border-top: 1px solid;
+    width: 95%;
+    margin: auto;
+    line-height: 2em;
+}
+
+.curriculum-main h4 {
+    width: 95%;
+    margin: 80px auto 20px;
+}
+
+.tech-title {
+}
+
+.tech-kname {
+    font-weight: bold;
+}
+
+.tech-ename {
+    font-style: italic;
+}
+
+.tech-img {
+
+}
+
+.tech-desc {
+}
+
+.responsive-curriculum-menu {
+    display: none;
+    background-color: #444;
+    color: #fff;
+}
+
+.responsive-curriculum-menu .fa-caret-up {
+    display: none;
+}
+
+video {
+    width: 100%;
+}
+
+.video-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.curriculum-fitness input {
+    width: 50px;
+}
+
+.fitness-edit {
+    display: none;
+}
+
+.contact-alert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
